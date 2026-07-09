@@ -264,6 +264,28 @@ export default function HomePage() {
         </p>
       </motion.div>
 
+      {/* Credit */}
+      <div style={{
+        position: 'fixed',
+        bottom: 14,
+        right: 18,
+        zIndex: 20,
+        fontFamily: 'Inter, sans-serif',
+        fontSize: 12,
+        color: '#1C100A',
+        opacity: 0.5,
+      }}>
+        made with nostalgia by{' '}
+        <a
+          href="https://www.linkedin.com/in/gourisha-goel/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: '#1C100A', textDecoration: 'underline', textUnderlineOffset: 2 }}
+        >
+          Gourisha Goel
+        </a>{' '}❤️
+      </div>
+
       {/* Fortune card overlay */}
       <FortuneCard
         fortune={fortune}
