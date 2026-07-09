@@ -212,7 +212,7 @@ export default function HomePage() {
         transition={{ type: 'spring', stiffness: 180, damping: 22 }}
         style={{
           position: 'fixed',
-          bottom: 24,
+          bottom: 44,
           left: 0, right: 0,
           display: 'flex',
           flexDirection: 'column',
@@ -268,7 +268,9 @@ export default function HomePage() {
       <div style={{
         position: 'fixed',
         bottom: 14,
-        right: 18,
+        left: 0,
+        right: 0,
+        textAlign: 'center',
         zIndex: 20,
         fontFamily: 'Inter, sans-serif',
         fontSize: 12,
