@@ -131,7 +131,7 @@ export default function HomePage() {
         }}
         animate={isAnimating
           ? { top: '85%', y: '-30%', width: 'min(800px, 115vw)' }
-          : { top: '54%', y: '-50%', width: 'min(460px, 68vw)' }
+          : { top: '50%', y: '-50%', width: 'min(460px, 68vw)' }
         }
         transition={{ type: 'spring', stiffness: 160, damping: 22 }}
       >
@@ -212,7 +212,7 @@ export default function HomePage() {
         transition={{ type: 'spring', stiffness: 180, damping: 22 }}
         style={{
           position: 'fixed',
-          bottom: 44,
+          bottom: 60,
           left: 0, right: 0,
           display: 'flex',
           flexDirection: 'column',
